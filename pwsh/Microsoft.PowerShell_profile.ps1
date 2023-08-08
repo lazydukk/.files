@@ -1,1 +1,0 @@
-oh-my-posh init pwsh --config 'E:\bruv\dotfiles\windows\pwsh\clean-detailed.omp.json' | Invoke-Expression
