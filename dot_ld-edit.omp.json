@@ -13,7 +13,7 @@
           "foreground": "#1e1e2e",
           "background": "#cdd6f4",
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,#FEF5ED>\ue0b2</>",
+          "trailing_diamond": "<transparent,#cdd6f4>\ue0b2</>",
           "template": " {{ if .WSL }}WSL at {{ end }}{{.Icon}}",
           "properties": {
             "macos": "\uf179 ",
@@ -27,7 +27,7 @@
           "foreground": "#1e1e2e",
           "background": "#cdd6f4",
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,#FEF5ED>\ue0b2</>",
+          "trailing_diamond": "<transparent,#cdd6f4>\ue0b2</>",
           "template": "\uf489 {{ .Name }}"
         },
         {
@@ -36,7 +36,7 @@
           "foreground": "#cdd6f4",
           "background": "#45475a",
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,#516BEB>\ue0b2</>",
+          "trailing_diamond": "<transparent,#45475a>\ue0b2</>",
           "template": "\ue266 MEM: {{ round .PhysicalPercentUsed .Precision }}% | {{ (div ((sub .PhysicalTotalMemory .PhysicalFreeMemory)|float64) 1000000000.0) }}/{{ (div .PhysicalTotalMemory 1000000000.0) }}GB \ue266 "
         },
         {
