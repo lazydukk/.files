@@ -1,0 +1,80 @@
+env:
+  TERM: xterm-256color
+
+# use catppuccin mocha theme
+import:
+  - /cpcn/catppuccin-mocha.yml
+font:
+  size: 12
+  normal:
+    family: "SpaceMono Nerd Font"
+    style: Regular
+  bold:
+    style: Bold
+  italic:
+    style: Italic
+  bold_italic:
+    style: Bold Italic
+
+shell:
+  program: pwsh
+
+working_directory: "E:\\bruv\\"
+window:
+  option_as_alt: Both
+  # Window padding (changes require restart)
+  #
+  # Blank space added around the window in pixels. This padding is not scaled by
+  # DPI and the specified value is always added at both opposing sides.
+  padding:
+    x: 12
+    y: 12
+
+  # Spread additional padding evenly around the terminal content.
+  dynamic_padding: true
+
+  # Window decorations
+  decorations: "Full"
+  blur: true
+  startup_mode: Windowed
+  opacity: 0.9
+  title: Alacritty
+  dynamic_title: true
+
+# Cursor
+cursor:
+  style:
+    shape: "Beam"
+    blinking: "On"
+    blink_interval: 500
+    thickness: 0.75
+
+# Colors (Mellow)
+colors:
+  name: Mocha (dark)
+  author: Chris Kempson
+  primary:
+    background: "#3b3228"
+    foreground: "#d0c8c6"
+  cursor:
+    text: "#3b3228"
+    cursor: "#d0c8c6"
+  normal:
+    black: "#3b3228"
+    red: "#cb6077"
+    green: "#beb55b"
+    yellow: "#f4bc87"
+    blue: "#8ab3b5"
+    magenta: "#a89bb9"
+    cyan: "#7bbda4"
+    white: "#d0c8c6"
+  bright:
+    black: "#7e705a"
+    red: "#cb6077"
+    green: "#beb55b"
+    yellow: "#f4bc87"
+    blue: "#8ab3b5"
+    magenta: "#a89bb9"
+    cyan: "#7bbda4"
+    white: "#f5eeeb"
+theme: Mocha.dark

@@ -1,1 +1,1 @@
-oh-my-posh init pwsh --config 'E:\bruv\dotfiles\pwsh\clean-detailed.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\Banuljith Dasnaka\omp-themes\dracula.omp.json' | Invoke-Expression
