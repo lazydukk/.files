@@ -135,3 +135,6 @@ fi
 #
 # eval "$(zoxide init zsh)"
 
+
+# execute macondo
+alias maco='cd /home/lazydukk/Desktop/macondo/; ./macondo'
