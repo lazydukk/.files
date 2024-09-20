@@ -1,5 +1,18 @@
-oh-my-posh init pwsh --config 'C:\Users\Banuljith Dasnaka\omp-themes\gruvbox.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'C:\Users\lazydukk\omp-themes\gruvbox.omp.json' | Invoke-Expression
 
+#custom commands 
+function maco () {
+    z macondo
+    ./macondo.exe
+}
+function jelly () {
+    z server
+    ./jellyfin.exe
+}
+function beta () {
+	z beta
+	./server.exe
+}
 
 # Utility functions for zoxide.
 
@@ -125,8 +138,12 @@ Set-Alias -Name zi -Value __zoxide_zi -Option AllScope -Scope Global -Force
 #
 # Invoke-Expression (& { (zoxide init powershell | Out-String) })
 
-# macondo custom command 
-function maco () {
-    z macondo
-    ./macondo.exe
+# Import the Chocolatey Profile that contains the necessary code to enable
+# tab-completions to function for `choco`.
+# Be aware that if you are missing these lines from your profile, tab completion
+# for `choco` will not function.
+# See https://ch0.co/tab-completion for details.
+$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+if (Test-Path($ChocolateyProfile)) {
+  Import-Module "$ChocolateyProfile"
 }
