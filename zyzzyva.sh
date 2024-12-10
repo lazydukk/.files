@@ -1,1 +1,0 @@
-./zyzzyva-naspa/zyzzyva.sh
