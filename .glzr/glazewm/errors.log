@@ -1,0 +1,19 @@
+[2m2024-12-08T13:54:59.207610Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute 'zebar'.\n\nError: The operation was canceled by the user. (0x800704C7)"
+[2m2024-12-08T14:14:52.530349Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m gaps.outer_gap: Not a valid length value 'opx'. Must be of format '10px' or '10%'. at line 51 column 5
+[2m2024-12-08T14:15:04.575067Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m gaps.outer_gap: Not a valid length value 'opx'. Must be of format '10px' or '10%'. at line 51 column 5
+[2m2024-12-08T14:15:10.370828Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m gaps.outer_gap: Not a valid length value 'opx'. Must be of format '10px' or '10%'. at line 51 column 5
+[2m2024-12-08T14:37:54.665483Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '2' doesn't exist or is already active.
+[2m2024-12-08T14:38:02.633816Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '2' doesn't exist or is already active.
+[2m2024-12-08T14:38:07.889463Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '1' doesn't exist or is already active.
+[2m2024-12-08T15:15:53.740237Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m No parent
+[2m2024-12-08T15:40:05.530358Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[50].commands: unrecognized subcommand
+ at line 308 column 15
+[2m2024-12-08T15:40:10.355828Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[50].commands: unrecognized subcommand
+ at line 308 column 15
+[2m2024-12-08T15:40:40.152367Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[50].commands: invalid type: string "exec explorer", expected a sequence at line 308 column 15
+[2m2024-12-08T15:40:49.839955Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[50].commands: invalid type: string "exec explorer", expected a sequence at line 308 column 15
+[2m2024-12-08T15:41:28.124168Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[50]: missing field `commands` at line 308 column 5
+[2m2024-12-08T15:41:38.201539Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[50].commands: invalid type: string "exec explorer", expected a sequence at line 308 column 15
+[2m2024-12-08T15:43:16.538801Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: invalid type: string "exec explorer", expected a sequence at line 158 column 15
+[2m2024-12-08T15:43:28.243605Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: unrecognized subcommand
+ at line 158 column 15
