@@ -2,4 +2,5 @@
 
 using windows symlinks `mklink`
 
-`mklink "<path to where the file should be linked>" "<path to original>"
+`mklink /J "{path to where the file should be linked}" "{path to original}"`
+this creates dir junction
