@@ -1,9 +1,5 @@
 # lazydukk/dots
 
-dotfiles managed w/ [chezmoi]("https://www.chezmoi.io/")
+using windows symlinks `mklink`
 
-- [nvim]("https://github.com/lazydukk/nvim-config")
-- vscode
-- alacritty
-- pwsh w/ oh-my-posh (dracula theme)
-- .bashrc
+`mklink "<path to where the file should be linked>" "<path to original>"
