@@ -21,7 +21,7 @@ function tsh () {
 	z tsh
 	./tsh.pl
 }
-function btop {
+function btp {
   z btop
   ./btop.exe
 }

@@ -6,12 +6,12 @@ const providers = zebar.createProviderGroup({
   network: { type: "network" },
   glazewm: { type: "glazewm" },
   cpu: { type: "cpu" },
-  date: { type: "date", formatting: "EEE d MMM  tt" },
+  date: { type: "date", formatting: "EEE d MMM  TT" },
   battery: { type: "battery" },
   memory: { type: "memory" },
   audio: { type: "audio" },
-  weather: { type: "weather" },
-  media: { type: "media", refreshinterval: 3000 },
+  weather: { type: "weather",latitude: 6.105367, longitude: 80.152009},
+  media: { type: "media", refreshinterval: 100 },
 });
 
 createRoot(document.getElementById("root")).render(<App />);
@@ -79,7 +79,7 @@ function App() {
   function getNetworkIcon(networkOutput) {
     switch (networkOutput.defaultInterface?.type) {
       case "ethernet":
-        return <i className="nf nf-md-ethernet_cable"></i>;
+        return <i className="nf nf-fa-ethernet"></i>;
       case "wifi":
         if (networkOutput.defaultGateway?.signalStrength >= 80) {
           return <i className="nf nf-md-wifi_strength_4"></i>;
@@ -126,9 +126,9 @@ function App() {
       case "light_rain_night":
         return <i className="nf nf-weather-night_alt_sprinkle"></i>;
       case "heavy_rain_day":
-        return <i className="nf nf-weather-day_rain"></i>;
+        return <i className="nf nf-weather-rain"></i>;
       case "heavy_rain_night":
-        return <i className="nf nf-weather-night_alt_rain"></i>;
+        return <i className="nf nf-weather-night_alt_rain_mix"></i>;
       case "snow_day":
         return <i className="nf nf-weather-day_snow"></i>;
       case "snow_night":
@@ -232,7 +232,7 @@ function App() {
 
         {output.cpu && (
           <div className="cpu">
-            <i className="nf nf-oct-cpu"></i>
+            <i className="nf nf-md-cpu_64_bit"></i>
 
             {/* Change the text color if the CPU usage is high. */}
             <span className={output.cpu.usage > 85 ? "high-usage" : ""}>
