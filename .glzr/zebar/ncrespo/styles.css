@@ -1,0 +1,122 @@
+/**
+  * Import the Nerdfonts icon font.
+ * Ref https://www.nerdfonts.com/cheat-sheet for a cheatsheet of available Nerdfonts icons.
+ */
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+
+i {
+  color: rgb(255 255 255 / 100%);
+  margin-right: 0px;
+}
+
+body {
+  color: rgb(255 255 255 / 100%);
+  font-family: "JetBrainsMono Nerd Font";
+  font-size: 12px;
+  /* this is 9 pt font */
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#root {
+  background: transparent;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  height: 100%;
+  padding: 0px 5px;
+}
+
+.left,
+.center,
+.right {
+  display: flex;
+  align-items: center;
+  margin-top: 2px;
+  font-size: 12px;
+}
+
+.center {
+  justify-self: center;
+  font-size: 11px;
+  color: rgb(255 255 255 / 50%);
+  white-space: nowrap;
+}
+
+.right {
+  justify-self: end;
+}
+
+.logo,
+.binding-mode,
+.tiling-direction,
+.network,
+.weather,
+.memory,
+.cpu,
+.audio,
+.battery {
+  margin-right: 14px;
+  vertical-align: middle;
+}
+
+.battery {
+  top: 3px;
+}
+
+.audio {
+  align-items: center;
+}
+
+.workspaces {
+  display: flex;
+  align-items: center;
+}
+
+.workspace {
+  background: rgb(200 200 200 / 10%);
+  margin-right: 4px;
+  padding: 4px 8px;
+  color: rgb(255 255 255 / 90%);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+
+  &.displayed {
+    background: rgb(255 255 255 / 100%);
+  }
+
+  &.focused {
+    background: #3359be;
+  }
+
+  &:hover {
+    background: rgb(51 89 190 / 70%);
+  }
+}
+
+.binding-mode,
+.tiling-direction {
+  background: transparent;
+  color: rgb(255 255 255 / 90%);
+  border-radius: 2px;
+  line-height: 1;
+  padding: 2px 2px;
+  border: 0;
+  cursor: pointer;
+  font-size: 11px;
+  margin-right: 15px;
+}
+
+.cpu .high-usage {
+  color: #900029;
+}

@@ -151,5 +151,6 @@
   "files.defaultLanguage": "en-us",
   "python.languageServer": "Pylance",
   "terminal.explorerKind": "external",
-  "workbench.editor.wrapTabs": true
+  "workbench.editor.wrapTabs": true,
+  "extensions.ignoreRecommendations": true
 }

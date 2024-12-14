@@ -10,7 +10,7 @@ i {
 }
 
 body {
-  color: #fff;
+  color: #ffffff;
   font-family: "ZedMono Nerd Font", monospace;
   font-size: 15px;
   overflow: hidden;
@@ -42,7 +42,7 @@ body,
 }
 
 .center {
-  justify-self: center;
+  width: 1300px;
 }
 
 .right {
@@ -55,13 +55,22 @@ body,
 .network,
 .memory,
 .cpu,
+.audio,
+.weather,
 .battery {
   margin-right: 20px;
+  vertical-align: middle;
 }
 
-.date {
-  color: #f9e2af;
-  font-weight: bold;
+.aduio {
+  align-items: center;
+}
+.media {
+  margin-left: 200px;
+}
+.time {
+  margin-left: 580px;
+  color: #fff3d9;
 }
 
 .workspaces {
