@@ -166,6 +166,7 @@ function App() {
 
       <div className="center">
         <div className="time">{output.date?.formatted}</div>
+        <div className="sep">|</div>
         <div className="media">
           {/* Checking if position and startTime are both 0 */}
           {(() => {

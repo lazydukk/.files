@@ -42,14 +42,18 @@ body,
   align-items: center;
 }
 
-.center {
-  width: 1300px;
-}
-
 .right {
   justify-self: end;
 }
 
+.center {
+  justify-content: center;
+}
+
+.sep {
+  margin-right: 10px;
+  margin-left: 10px;
+}
 .logo,
 .binding-mode,
 .tiling-direction,
@@ -65,14 +69,6 @@ body,
 i
 .aduio {
   align-items: center;
-}
-.media {
-  margin-left: 150px;
-  align-items: center;
-}
-.time {
-  margin-left: 550px;
-  color: #fff3d9;
 }
 
 .workspaces {
