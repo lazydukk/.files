@@ -27,7 +27,7 @@ function App() {
   function stripMedia(title, artist) {
     const ellipsis = "…";
     const separator = " - ";
-    const maxLength = 73;
+    const maxLength = 40;
 
     // Ensure default values
     if (!title) title = "";

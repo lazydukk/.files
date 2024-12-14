@@ -68,6 +68,7 @@ i
 }
 .media {
   margin-left: 150px;
+  align-items: center;
 }
 .time {
   margin-left: 550px;
