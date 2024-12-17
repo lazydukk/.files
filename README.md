@@ -6,6 +6,6 @@ using windows symlinks `mklink`
 this creates dir junction
 
 ---
-## GlazeWM & Zebar
+## [GlazeWM & Zebar](./windows/.glzr) 
 ### Zebar
 ![zebar](./assets/zebar.png)
