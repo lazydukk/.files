@@ -1,0 +1,22 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../tsh"
+    },
+    {
+      "path": "../ioi"
+    },
+    {
+      "path": "C:/Users/bdas/.glzr"
+    }
+  ],
+  "settings": {
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
+  }
+}
