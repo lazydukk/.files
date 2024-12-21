@@ -17,3 +17,4 @@
 [2m2024-12-08T15:43:16.538801Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: invalid type: string "exec explorer", expected a sequence at line 158 column 15
 [2m2024-12-08T15:43:28.243605Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[0].commands: unrecognized subcommand
  at line 158 column 15
+[2m2024-12-19T13:41:56.733382Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
