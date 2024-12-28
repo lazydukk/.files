@@ -13,5 +13,6 @@ this creates dir junction
 - [nvim](./windows/AppData/Local/nvim/)
     - using NvChad
     - configured for c++
-- [pwsh](./windows/Documents/PowerShell)
+    - [help](./windows/AppData/Local/nvim/help.md)
+- [pwsh](./windows/Documents/PowerShell)    
     - [omp | oh-my=posh](./windows/omp-themes/)
