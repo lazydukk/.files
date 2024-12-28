@@ -9,12 +9,12 @@
 - `:TSInstall` = install a treesitter
 
 ---
-- To skip a plugin installing automatically add it to [mason-conform](./lua/configs/mason-conform.lua).
-- To ensure that a plugin is installed, add it to [mason-lspconfig](./lua/configs/mason-lspconfig.lua).
+- To skip a plugin installing automatically add it to `./lua/configs/mason-conform.lua)`
+- To ensure that a plugin is installed, add it to `./lua/configs/mason-lspconfig.lua)`
 
 ## Issues
 - luacheck won't install in windows;
-(resources: [luarocks.nvim](https://github.com/vhyrro/luarocks.nvim) / [lunarmodules/luacheck](https://github.com/lunarmodules/luacheck?tab=readme-ov-file#installation))
+- resources: [luarocks.nvim](https://github.com/vhyrro/luarocks.nvim) / [lunarmodules/luacheck](https://github.com/lunarmodules/luacheck?tab=readme-ov-file#installation)
     - Download [luacheck.exe](https://github.com/lunarmodules/luacheck/releases/download/v1.2.0/luacheck.exe)
-    - Then go to [](../nvim-data/mason/bin/) and add  [luarocks.cmd](./example/luarocks.cmd)
-    - Then go to [](../nvim-data/mason/packages/). Inside it, create a dir called `./luacheck` and then add the `luacheck.exe` from earlier.
+    - Then go to `../nvim-data/mason/bin/` and add  `luarocks.cmd` from `./example/`
+    - Then go to `../nvim-data/mason/packages/` Inside it, create a dir called `./luacheck` and then add the `luacheck.exe` from earlier.
