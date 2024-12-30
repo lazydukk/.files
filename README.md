@@ -10,6 +10,7 @@ this creates dir junction
 # Configs
 - [GlazeWM & Zebar](./windows/.glzr) 
 ![zebar](./assets/zebar.png)
+![desktop](./assets/desktop-1.png)
 - [nvim](./windows/AppData/Local/nvim/)
 ![nvim](./assets/nvim.png)
     - using NvChad
