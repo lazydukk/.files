@@ -3,10 +3,13 @@ require("nvchad.configs.lspconfig").defaults()
 
 local lspconfig = require("lspconfig")
 
-lspconfig.servers = { "lua_ls" }
+lspconfig.servers = {
+    "lua_ls",
+    "clangd",
+}
 
 -- list of servers configured with default config
-local default_servers = {}
+local default_servers = { "clangd" }
 local nvlsp = require("nvchad.configs.lspconfig")
 
 -- lsps with default config
