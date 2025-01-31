@@ -152,5 +152,11 @@
   "python.languageServer": "Pylance",
   "terminal.explorerKind": "external",
   "workbench.editor.wrapTabs": true,
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
